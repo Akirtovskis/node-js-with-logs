@@ -3,10 +3,8 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 const testLogs = () => {
-  setInterval(()=> console.log(`Log 10 sec before listening LOG`),20000);
+  setInterval(()=> console.log(`Redeployed with webhooks`),20000);
   setInterval(()=> console.log(`Listening on: ${ PORT }`),30000);
-  setInterval(()=> console.log(`Log 10 sec after listening LOG`),40000);
-  setInterval(()=> console.log("just synced with syn"),40000 );
 }
 
 express()
