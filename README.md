@@ -6,8 +6,6 @@ This application supports the [Getting Started on Heroku with Node.js](https://d
 
 ## Running Locally
 
-Test
-
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
