@@ -3,7 +3,7 @@ const path = require('path')
 const PORT = process.env.PORT || 5000
 
 const testLogs = () => {
-  setInterval(()=> console.log(`redeployed with 🌪🌪🌪 approach`),20000);
+  setInterval(()=> console.log(`redeployed with 🌪🌪 approach`),20000);
   setInterval(()=> console.log(`Listening on: ${ PORT }`),30000);
 }
 
